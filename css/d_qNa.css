@@ -1,0 +1,56 @@
+/* .active{
+    display: block;
+}
+
+.qNa_wrap{
+    border-top: 2px solid #111;
+}
+.qNa_wrap>li{
+    border-bottom: 1px solid #ddd;
+}
+.qNabox>a{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    padding: 0 40px;
+    position: relative;
+}
+.answerBox{
+    position: absolute;
+    display: none;
+    width: 100%;
+    margin: 0;
+    background-color: #f9f9f9;
+    padding: 30px 70px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555555;
+    border-top: 1px solid #ddd;
+} */
+.question{
+    color: #111;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.answer{
+    padding: 0 70px;
+    background-color: #f9f9f9;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    box-sizing: border-box;
+}
+/* .answer>div{
+    padding: 30px 0;
+} */
+.answer>span{
+    padding: 30px 0;
+    display: inline-block;
+}

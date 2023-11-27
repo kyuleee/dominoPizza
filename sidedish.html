@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/domino1.css">
+    <link rel="stylesheet" href="./css/d_menu.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="w1200">
+        <h1><a href="./index.html" class="logo bg_icon">logo</a></h1>
+        <div class="search_wrap">
+            <a href="" class="bg_icon arrow"></a>
+            </div>
+        <div class="h_btn_wrap">
+            <ul>
+                <li><a href="./d_login.html">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+                <li class="h_lang">kor</li>
+            </ul>
+        </div>
+    </header>
+    <nav class="w100">
+        <ul class="w1200">
+            <li><a href="">메뉴</a></li>
+            <li><a href="">e쿠폰</a></li>
+            <li><a href="">상품권선물</a></li>
+            <li><a href="">이벤트·제휴</a></li>
+            <li><a href="">매장검색</a></li>
+            <li><a href="">가맹점모집</a></li>
+            <li><a href="javascript:void(0)" class="btn_more">더보기</a></li>
+        </ul>
+    </nav>
+    <div class="sub_nav">
+        <div class="menu">
+            <div class="menu_l">
+                <ul>
+                    <li><a href="">도미노 서비스</a></li>
+                    <li><a href="">매니아 혜택</a></li>
+                    <li><a href="">도미노 모멘트</a></li>
+                    <li><a href="">퀵오더</a></li>
+                    <li><a href="">단체주문 서비스</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">고객센터</a></li>
+                    <li><a href="">자주하는 질문</a></li>
+                    <li><a href="">문의하기/칭찬</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">한국도미노피자</a></li>
+                    <li><a href="">광고갤러리</a></li>
+                    <li><a href="">사회공회활동</a></li>
+                    <li><a href="">가맹점 모집</a></li>
+                    <li><a href="">인재채용</a></li>
+                </ul>
+            </div>
+            <div class="menu_r">
+                <ul>
+                    <li><a href="">공지사항</a></li>
+                    <li><a href="">-도미노뉴스</a></li>
+                    <li><a href="">-보도자료</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="w1200 page_title">
+            <h2>메뉴</h2>
+            <ul>
+                <li><a href="">홈</a></li>
+                <li>&nbsp;>&nbsp;</li>
+                <li><a href=""> 메뉴</a></li>
+                <li>&nbsp;>&nbsp;</li>
+                <li>사이드디시</li>
+            </ul>
+        </div>
+        <div class="w1200 menu_nav">
+            <ul>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)" id="start">피자</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">1인 메뉴</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">하프앤하프</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">사이드디시</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">인기세트메뉴</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">마이키친</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">음료&기타</a></li>
+            </ul>
+        </div>
+        <div class="w1200">
+            <div class="menuList single">
+                <ul class="premium">
+                    <li>
+                        <a href="">
+                            <img src="./img/20230612_5Lxgl373.jpg" alt="">
+                            <p class="zoomicon"></p>
+                        </a>
+                        <div class="menuName">
+                            <p>불고기 대파 크림치즈 파스타</p>
+                            <div>25%할인</div>
+                            <div>NEW</div>
+                        </div>
+                        <div class="priceBox">
+                            <span class="large">
+                                <span>8,800원</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/20221223_6nkdU5d3.jpg" alt="">
+                            <p class="zoomicon"></p>
+                        </a>
+                        <div class="menuName">
+                            <p>치킨 체다 더티 프라이즈</p>
+                            <div>25%할인</div>
+                            <div>기간한정</div>
+                        </div>
+                        <div class="priceBox">
+                            <span class="large">
+                                <span>4,600원</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/20230406_7nA26nTb.jpg" alt="">
+                            <p class="zoomicon"></p>
+                        </a>
+                        <div class="menuName">
+                            <p>[도미노x슈퍼 마리오] 체다 치즈 치킨</p>
+                            <div>25%할인</div>
+                            <div>NEW</div>
+                        </div>
+                        <div class="priceBox">
+                            <span class="large">
+                                <span>9,800원</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/20221223_egtQ927y.jpg" alt="">
+                            <p class="zoomicon"></p>
+                        </a>
+                        <div class="menuName">
+                            <p>칙볼(치킨볼) 파스타</p>
+                            <div>25%할인</div>
+                            <div>기간한정</div>
+                        </div>
+                        <div class="priceBox">
+                            <span class="large">
+                                <span>9,800원</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/20220304_CN2qUKo1.jpg" alt="">
+                            <p class="zoomicon"></p>
+                        </a>
+                        <div class="menuName">
+                            <p>웨스턴 핫 윙(8조각)</p>
+                            <div>25%할인</div>
+                            <div>NEW</div>
+                        </div>
+                        <div class="priceBox">
+                            <span class="large">
+                                <span>9,800원</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/20210811_13byeKqP.jpg" alt="">
+                            <p class="zoomicon"></p>
+                        </a>
+                        <div class="menuName">
+                            <p>허니&갈릭 윙스</p>
+                            <div>25%할인</div>
+                        </div>
+                        <div class="priceBox">
+                            <span class="large">
+                                <span>9,800원</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/20210601_0TMFSE78.jpg" alt="">
+                            <p class="zoomicon"></p>
+                        </a>
+                        <div class="menuName">
+                            <p>베이컨 까르보나라 페투치니</p>
+                            <div>25%할인</div>
+                        </div>
+                        <div class="priceBox">
+                            <span class="large">
+                                <span>9,800원</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/20200309_nwnlf8dv.jpg" alt="">
+                            <p class="zoomicon"></p>
+                        </a>
+                        <div class="menuName">
+                            <p>NEW 치즈 볼로네즈 스파게티</p>
+                            <div>25%할인</div>
+                        </div>
+                        <div class="priceBox">
+                            <span class="large">
+                                <span>9,800원</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/20210601_Q8dpaikh.jpg" alt="">
+                            <p class="zoomicon"></p>
+                        </a>
+                        <div class="menuName">
+                            <p>하프&하프 파스타 (NEW 치즈 & 베이컨 까르보나라)</p>
+                            <div>25%할인</div>
+                        </div>
+                        <div class="priceBox">
+                            <span class="large">
+                                <span>10,800원</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/20200309_Z7RyBpr3.jpg" alt="">
+                            <p class="zoomicon"></p>
+                        </a>
+                        <div class="menuName">
+                            <p>도미노 코울슬로</p>
+                            <div>25%할인</div>
+                        </div>
+                        <div class="priceBox">
+                            <span class="large">
+                                <span>2,400원</span>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="w1200 guide_area">
+            <div class="left_guide">
+                <h4>※유의사항</h4>
+                <ul>
+                    <li>· 단종으로 인한 상품권 사용 안내 : 동일 가격 또는 더 높은 가격의 제품으로 대체 주문 가능
+                        <br>&nbsp;(상품권에 명시된 제품보다 더 높은 가격대의 제품 주문 시, 금액 추가 발생)
+                        <br>&nbsp;(단, 상품권에 명시된 제품보다 저렴한 제품 주문 시 발생하는 차액에 대해서는 환불 처리 불가)
+
+                    </li>
+                    <li> · 일부 리조트 및 특수매장은 상기 가격과 차이가 있음</li>
+                    <li>· 모든 사진은 이미지 컷이므로 실제 제품과 다를 수 있습니다.</li>
+                </ul>
+            </div>
+            <div class="right_guide">
+                <p>제품의 원산지, 영양성분 및 알레르기 유발성분을 먼저 확인하세요.</p>
+                <div class="origin_btn">원산지·영양성분·알레르기 유발성분 정보 ></div>
+            </div>
+        </div>
+    </main>
+    <footer class="w100">
+        <div class="w1200 f_wrap">
+            <div>
+                <div class="f_top">
+                    <h1 class="bg_icon"></h1>
+                    <p>1577-3082</p>
+                </div>
+                <ul class="f_nav">
+                    <li><a>이용약관</a></li>
+                    <li><a class="hard">개인정보처리방침</a></li>
+                    <li><a class="hard">위치기반서비스</a></li>
+                    <li><a>청소년보호방침</a></li>
+                    <li><a>고객센터</a></li>
+                    <li><a>인재채용</a></li>
+                    <li><a>가맹점모집</a></li>
+                    <li><a>단체주문</a></li>
+                </ul>
+                <address>
+                    <p>06223 서울특별시 강남구 역삼로25길 35(역삼동, 청오큐브타워) 청오디피케이㈜｜대표이사 : 오광현,김영훈</p>
+                    <p>사업자 등록번호: 220-81-03371｜통신판매업신고: 강남 5064호｜개인정보 보호책임자 : 윤여진｜민원 책임자 : 이열우</p>
+                    <p>문의 : webmaster@dominos.co.kr</p>
+                    <p>Copyright ⓒ Domino’s Pizza. All rights reserved.</p>
+                </address>
+                <div class="noti">
+                    <p>청오디피케이㈜의 사전 서면동의 없이 도미노피자 사이트(PC, 모바일, 앱)의 일체의 정보, 콘텐츠 및 UI 등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.</p>
+                    <p>도미노피자에서 판매되는 모든 상품은 청오디피케이㈜에서 책임지고 있습니다.</p>
+                </div>
+            </div>
+            <div class="f_right">
+                <div>
+                    <div class="lang"></div>
+                    <div>
+                        <dl>
+                            <dt>DOWNLOAD APP</dt>
+                            <dd class="bg_icon apple"></dd>
+                            <dd class="bg_icon google"></dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li><a class="bd bg_icon" href=""></a></li>
+                        <li><a href="" class="is bg_icon"></a></li>
+                        <li><a href="" class="fb bg_icon"></a></li>
+                        <li><a href="" class="yb bg_icon"></a></li>
+                        <li><a href="" class="tw bg_icon"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="award">
+            <ul class="w1200">
+                <li>
+                    <img src="./img/list_awards.png" alt="">
+                    <p>식품안전<br>경영시스템 인증</p>
+                </li>
+                <li>
+                    <img src="./img/list_awards2.png" alt="">
+                    <p>지식경제부<br>우수디자인 선정</p>
+                </li>
+                <li>
+                    <img src="./img/list_awards3.png" alt="">
+                    <p>2022년 고객이 가장 추천하는 기업<br>피자전문점 부문 10년</p>
+                </li>
+                <li>
+                    <img src="./img/list_awards4.png" alt="">
+                    <p>2022년 한국산업 고객만족도
+                        <br>피자전문점 부문 8년 연속 1위
+                    </p>
+                </li>
+                <li>
+                    <img src="./img/list_awards5.png" alt="">
+                    <p>
+                       2022 프리미엄브랜드지수
+                       <br>피자전문점 부문 7년 연속 1위 수상 
+                    </p>
+                </li>
+                <li>
+                    <img src="./img/list_awards6.png" alt="">
+                    <p>대학생 1000명이 선택한
+                        <br>2019 올해의 핫 브랜드 캠퍼스 잡앤조이 선정 
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="floating">
+        <a href="">
+            <img src="./img/floating_iu_pc2.png" alt="">
+        </a>
+    </div>
+    <script src="./js/domino1.js"></script>
+    <script src="./js/d_menu.js"></script>
+</body>
+</html>

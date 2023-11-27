@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/domino1.css">
+    <link rel="stylesheet" href="./css/d_menu.css">
+    <link rel="stylesheet" href="./css/half.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="w1200">
+        <h1><a href="./index.html" class="logo bg_icon">logo</a></h1>
+        <div class="search_wrap">
+            <a href="" class="bg_icon arrow"></a>
+            </div>
+        <div class="h_btn_wrap">
+            <ul>
+                <li><a href="./d_login.html">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+                <li class="h_lang">kor</li>
+            </ul>
+        </div>
+    </header>
+    <nav class="w100">
+        <ul class="w1200">
+            <li><a href="">메뉴</a></li>
+            <li><a href="">e쿠폰</a></li>
+            <li><a href="">상품권선물</a></li>
+            <li><a href="">이벤트·제휴</a></li>
+            <li><a href="">매장검색</a></li>
+            <li><a href="">가맹점모집</a></li>
+            <li><a href="javascript:void(0)" class="btn_more">더보기</a></li>
+        </ul>
+    </nav>
+    <div class="sub_nav">
+        <div class="menu">
+            <div class="menu_l">
+                <ul>
+                    <li><a href="">도미노 서비스</a></li>
+                    <li><a href="">매니아 혜택</a></li>
+                    <li><a href="">도미노 모멘트</a></li>
+                    <li><a href="">퀵오더</a></li>
+                    <li><a href="">단체주문 서비스</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">고객센터</a></li>
+                    <li><a href="">자주하는 질문</a></li>
+                    <li><a href="">문의하기/칭찬</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">한국도미노피자</a></li>
+                    <li><a href="">광고갤러리</a></li>
+                    <li><a href="">사회공회활동</a></li>
+                    <li><a href="">가맹점 모집</a></li>
+                    <li><a href="">인재채용</a></li>
+                </ul>
+            </div>
+            <div class="menu_r">
+                <ul>
+                    <li><a href="">공지사항</a></li>
+                    <li><a href="">-도미노뉴스</a></li>
+                    <li><a href="">-보도자료</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="w1200 page_title">
+            <h2>메뉴</h2>
+            <ul>
+                <li><a href="">홈</a></li>
+                <li>&nbsp;>&nbsp;</li>
+                <li><a href=""> 메뉴</a></li>
+                <li>&nbsp;>&nbsp;</li>
+                <li>사이드디시</li>
+            </ul>
+        </div>
+        <div class="w1200 menu_nav">
+            <ul>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)" id="start">피자</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">1인 메뉴</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">하프앤하프</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">사이드디시</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">인기세트메뉴</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">마이키친</a></li>
+                <li>|</li>
+                <li><a href="javascript:void(0)" class="menuTab" onclick="tabOpen(event)">음료&기타</a></li>
+            </ul>
+        </div>
+        <div class="w1200 innerbox">
+            <div class="pizzapan">
+            </div>
+            <div class="ch_pizza_wrap">
+                <h3>피자 한 판으로 두 가지 맛을 동시에!</h3>
+                <div class="recommend_box">
+                    <div class="recommend_title">
+                        <p class="btn_red1">추천</p>
+                        <h4>베스트 조합! 하프앤하프 시그니처 3종!</h4>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="all_topping">
+                <div class="topping">
+                    <ul>
+                        <li>
+                            <div class="topp_img">
+                                <img src="./img/RTP239.jpg" alt="">
+                            </div>
+                            <div class="topp_cnt">
+                                <div class="topp_detail">
+                                    <div>치킨 큐브 30g</div>
+                                    <strong>1,500</strong>
+                                </div>
+                                <div class="positionright">
+                                    <div class="countwrap">
+                                        <button class="updown" id="minus">-</button>
+                                        <input type="number" value="0" class="inp">
+                                        <button class="updown" id="plus">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="topp_img">
+                                <img src="./img/RTP238.jpg" alt="">
+                            </div>
+                            <div class="topp_cnt">
+                                <div class="topp_detail">
+                                    <div>아보카도 큐브 30g</div>
+                                    <strong>1,500</strong>
+                                </div>
+                                <div class="positionright">
+                                    <div class="countwrap">
+                                        <button class="updown" id="minus">-</button>
+                                        <input type="number" value="0" class="inp">
+                                        <button class="updown" id="plus">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="topp_img">
+                                <img src="./img/RTP237.jpg" alt="">
+                            </div>
+                            <div class="topp_cnt">
+                                <div class="topp_detail">
+                                    <div>립 스테이크</div>
+                                    <strong>4,500</strong>
+                                </div>
+                                <div class="countwrap">
+                                    <button class="updown" id="minus">-</button>
+                                    <input type="number" value="0" class="inp">
+                                    <button class="updown" id="plus">+</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </main>
+    <div class="w100"></div>
+    <script src="./js/domino1.js"></script>
+    <script src="./js/d_menu.js"></script>
+</body>
+</html>
